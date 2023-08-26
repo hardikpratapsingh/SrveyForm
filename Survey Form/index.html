@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICFAI Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1 id="head">The ICFAI Survey Form</h1>
+        <h2 id="subheading">Thank you for taking the time to help us improve the platform</h2>
+    </div>
+    <form>
+        <div id="content1">
+            <label>Name</label><br>
+            <input type="name" name="name" placeholder="Enter your name" class="box"><br>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="Enter your email" class="box"><br>
+            <label>Age (optional)</label><br>
+            <input type="age" name="age" placeholder="Enter your age" class="box"><br><br>
+            <label>Which is your department?</label><br>
+        
+        <div id="option">
+            <select>
+                <option value="Select your role">Select your department</option>
+                <option value="Student">Tech Department</option>
+                <option value="Full time job">Law department</option>
+                <option value="Full time learner">Business</option>
+                <option value="Prefer not to easy">Commerce</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <label>Which is your course?</label><br>
+        <div id="option1">
+            <select>
+                <option value="Select your role">BCA/Btech/DataScience</option>
+                <option value="Student">MCA/Mtech</option>
+                <option value="Full time job">BA law/LLB/BSc LAW</option>
+                <option value="Full time learner">Bcom/BBA</option>
+                <option value="Prefer not to easy">Mcom/MBA</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <br>
+        <label id="head1">Would you recommend The ICFAI Uiversity to a friend?</label><br>
+        <input type="radio" name="radio" class="larger">definitely<br>
+        <input type="radio" name="radio" class="larger">maybe<br>
+        <input type="radio" name="radio" class="larger">not sure<br>
+        <br>
+        <label id="head1">How is the environment in ICFAI University?</label><br>
+        <input type="radio" name="radio" class="larger">better<br>
+        <input type="radio" name="radio" class="larger">good<br>
+        <input type="radio" name="radio" class="larger">not bed<br>
+        <br>
+        <label id="head1">How is the canteen in ICFAI University?</label><br>
+        <input type="radio" name="radio" class="larger">good<br>
+        <input type="radio" name="radio" class="larger">better<br>
+        <input type="radio" name="radio" class="larger">not bed<br>
+        <br>
+        <label id="head1">How is the nature of teachers?</label><br>
+        <input type="radio" name="radio" class="larger">good<br>
+        <input type="radio" name="radio" class="larger">better<br>
+        <input type="radio" name="radio" class="larger">best<br>
+        <br>
+        
+
+        <label id="head2">Any comments or suggestion?</label><br><br>
+        <textarea placeholder="Enter your comment here..."></textarea><br>
+        <!-- <label>What is your favourite feature of freeCodeCamp</label> -->
+        <button id="btn">Submit</button>
+    </div>
+    </form>
+    
+</body>
+</html>
